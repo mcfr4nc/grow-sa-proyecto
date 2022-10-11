@@ -8,7 +8,7 @@
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    black,
+  "primary":    #20459c,
   "secondary":  $secondary,
   "success":    $success,
   "info":       $info,
@@ -24,7 +24,7 @@ $theme-colors: (
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
-    background-color: #f3f3f3;
+    background-color: #ffffff;
     font-family: 'Montserrat', sans-serif;
     overflow-x: hidden;
 }
