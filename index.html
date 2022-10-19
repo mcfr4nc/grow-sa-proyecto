@@ -45,9 +45,7 @@
     <!-- ENCABEZADO -->
     <!--========================================================== -->
     <header class="container-fluid bg-prim d-flex justify-content-center">
-      <p class="text-primary mb-0 p-2 fs-6">whatsapp +54 9 11 5472621</p>
     </header>
-
     <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
       <div class="container">
         <a class="navbar-brand" href="#">
@@ -74,10 +72,9 @@
             <a class="nav-link" href="#seccion-contacto">Contactanos</a>
             </li>
           </ul>
-          <form class="d-inline-flex">
-            <input class="form-control me-2" type="email" placeholder="buscar" aria-label="Free Trial">
-            <button type="submit" class="btn btn-primary">
-              Free Trial</button>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="FreeTrial" aria-label="Buscar">
+            <button class="btn btn-outline-primary" type="submit">FreeTrial</button>
           </form>
         </div>
       </div>
@@ -197,9 +194,9 @@
         </div>
         
           <div class="wrapper-local">
-            <h2>Ubicado en La plata, argentina</h2>
+            <h2>Ubicado en La Plata, Argentina</h2>
             <h2 class="text-primary mb-4" id="typewriter"></h2>
-            <p class="fs-5 text-body">Elijimos la plata para nuestra oficina con el objetivo de estar cerca a nuestros
+            <p class="fs-5 text-body">Elejimos la plata para nuestra oficina con el objetivo de estar cerca a nuestros
               clientes. Estamos ubicados en x calle y x calle ¡Visitennos y no se arrepentiran!</p>
             <section class="d-flex justify-content-start" id="numeros-local">
               <div>
@@ -271,11 +268,19 @@
     <!--FOOTER
     ========================================================== -->
     <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
-      <p class="fs-5 px-3  pt-3">Grow SA &copy; Todos Los Derechos Reservados 2021</p>
+      <div>
+        <p class="fs-5 px-3  pt-3">Contactanos atraves de nuestro whatsapp</p>
+      <p class="text-primary mb-0 p-2 fs-6">
+        <a href="https://wa.me/5492215472126"><i class="bi bi-whatsapp">whatsapp</i></a>
+      </p>
+      </div>
+      <div>
+        <p class="fs-5 px-3  pt-3">Grow SA &copy; Todos Los Derechos Reservados 2021</p>
       <div id="iconos">
         <a href="#"><i class="bi bi-facebook"></i></a>
         <a href="#"><i class="bi bi-twitter"></i></a>
         <a href="#"><i class="bi bi-instagram"></i></a>
+      </div>
       </div>
     </footer>
     <!--========================================================== -->
