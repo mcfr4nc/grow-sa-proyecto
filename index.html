@@ -9,7 +9,8 @@
   <meta name="generator" content="Hugo 0.82.0">
   <title>grow SA. - Inicio</title>
   <meta name="description" content="Empresa dedicada al Analisis Marginal">
-  <meta name="keywords" content="grow SA,Analisis Marginal,Analisis,Costos análisis marginal,Contribución marginal,punto de equilibrio,punto de indiferencia,punto de cierre">
+  <meta name="keywords"
+    content="grow SA,Analisis Marginal,Analisis,Costos análisis marginal,Contribución marginal,punto de equilibrio,punto de indiferencia,punto de cierre">
 
   <!-- <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/"> -->
 
@@ -60,16 +61,18 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link" href="#intro">Quienes somos</a>
-            </li> 
+            </li>
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="#servicios">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#equipo">Equipo</a>
             </li>
-            
             <li class="nav-item">
-            <a class="nav-link" href="#seccion-contacto">Contactanos</a>
+              <a class="nav-link" href="#ubicacion">Ubicacion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#seccion-contacto">Contactanos</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -143,9 +146,7 @@
           class="text-primary p-3 fs-2  border-3 d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto border-bottom">Nuestros
           servicios</span>
       </div>
-      <div class="row w-75 mx-auto" id="servicios-fila-1">
-        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
-
+      <div class="row w-75 mx-auto" id="servicios-fila-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
           <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
             <img src="./img/desarrollo.png" alt="desarrollo" width="180" height="160">
 
@@ -166,7 +167,6 @@
                 el beneficio de una empresa.</p>
             </div>
           </div>
-        </div>
       </div>
     </section>
 
@@ -175,6 +175,7 @@
     <!--========================================================== -->
 
     <section>
+
       <div class="container w-50 m-auto text-center" id="equipo">
         <h1 class="mb-5 fs-2">Equipo pequeño con <span class="text-primary">resultados Grandes</span>.</h1>
         <p class="fs-4 ">Siempre buscamos las personas adecuadas para que trabajen con nosotros. Si te sientes listo
@@ -184,40 +185,42 @@
       <div class="mt-5 text-center">
         <img id="img-equipo" src="./img/equipo.jpg" alt="equipo">
       </div>
-
+    </section>
+    <!--========================================================== -->
+    <!-- ubicacion-->
+    <!--========================================================== -->
+    <section id="ubicacion">
       <div id="local" class="border-top border-2">
-        <div id="mapa">
+        <div class="wrapper-local w-50 m-auto text-center">
+          <h1 class="mb-5 fs-2">Esta es nuestra <span class="text-primary">Ubicacion</span>.</h1>
+        </div>
+        <div id="mapa" class="wrapper-local">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52343.07030777118!2d-57.98818995077439!3d-34.92045289859859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62b1f0085a1%3A0xbcfc44f0547312e3!2sLa%20Plata%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1664244338390!5m2!1ses-419!2sar"
-            style="border:0;;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            style="border:0;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        
-          <div class="wrapper-local">
-            <h2>Ubicado en La Plata, Argentina</h2>
-            <h2 class="text-primary mb-4" id="typewriter"></h2>
-            <p class="fs-5 text-body">Elejimos la plata para nuestra oficina con el objetivo de estar cerca a nuestros
-              clientes. Estamos ubicados en x calle y x calle ¡Visitennos y no se arrepentiran!</p>
-            <section class="d-flex justify-content-start" id="numeros-local">
-              <div>
-                <p class="text-primary fs-5">200</p>
-                <p>Dias de Sol</p>
-              </div>
-              <div>
-                <p class="text-primary fs-5">100%</p>
-                <p>Aprobado</p>
-              </div>
-              <div>
-                <p class="text-primary fs-5">24 °C</p>
-                <p>Temperatura</p>
-              </div>
-            </section>
-          </div>
-        
+        <div class="wrapper-local">
+          <h2>Ubicado en La Plata, Argentina</h2>
+          <h2 class="text-primary mb-4" id="typewriter"></h2>
+          <p class="fs-5 text-body">Elejimos la plata para nuestra oficina con el objetivo de estar cerca a nuestros
+            clientes. Estamos ubicados en x calle y x calle ¡Visitennos y no se arrepentiran!</p>
+          <section class="d-flex justify-content-start" id="numeros-local">
+            <div>
+              <p class="text-primary fs-5">200</p>
+              <p>Dias de Sol</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">100%</p>
+              <p>Aprobado</p>
+            </div>
+            <div>
+              <p class="text-primary fs-5">24 °C</p>
+              <p>Temperatura</p>
+            </div>
+          </section>
+        </div>
       </div>
     </section>
-
-
     <!--========================================================== -->
     <!-- SECCION CONTACTOS-->
     <!--========================================================== -->
@@ -262,25 +265,23 @@
 
       </div>
     </section>
-
-
     <!--========================================================== -->
     <!--FOOTER
     ========================================================== -->
     <footer class="w-100  d-flex  align-items-center justify-content-center flex-wrap">
       <div>
         <p class="fs-5 px-3  pt-3">Contactanos atraves de nuestro whatsapp</p>
-      <p class="text-primary mb-0 p-2 fs-6">
-        <a href="https://wa.me/5492215472126"><i class="bi bi-whatsapp">whatsapp</i></a>
-      </p>
+        <p class="text-primary mb-0 p-2 fs-6">
+          <a href="https://wa.me/5492215472126"><i class="bi bi-whatsapp">whatsapp</i></a>
+        </p>
       </div>
       <div>
-        <p class="fs-5 px-3  pt-3">Grow SA &copy; Todos Los Derechos Reservados 2021</p>
-      <div id="iconos">
-        <a href="#"><i class="bi bi-facebook"></i></a>
-        <a href="#"><i class="bi bi-twitter"></i></a>
-        <a href="#"><i class="bi bi-instagram"></i></a>
-      </div>
+        <p class="fs-5 px-3  pt-3">Grow SA &copy; Todos Los Derechos Reservados 2022</p>
+        <div id="iconos">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+        </div>
       </div>
     </footer>
     <!--========================================================== -->
@@ -301,30 +302,30 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-    $(document).ready(function(){
-      // Add smooth scrolling to all links
-      $("a").on('click', function(event) {
-    
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-    
-          // Store hash
-          var hash = this.hash;
-    
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-    
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        } // End if
+      $(document).ready(function () {
+        // Add smooth scrolling to all links
+        $("a").on('click', function (event) {
+
+          // Make sure this.hash has a value before overriding default behavior
+          if (this.hash !== "") {
+            // Prevent default anchor click behavior
+            event.preventDefault();
+
+            // Store hash
+            var hash = this.hash;
+
+            // Using jQuery's animate() method to add smooth page scroll
+            // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 500, function () {
+
+              // Add hash (#) to URL when done scrolling (default click behavior)
+              window.location.hash = hash;
+            });
+          } // End if
+        });
       });
-    });
     </script>
 </body>
 
